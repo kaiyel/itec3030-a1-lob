@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="ca.yorku.cmg.lob.exchange.ExchangeTest" time="0.106" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/test-classes:/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/classes:/Users/kyle/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/kyle/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kyle/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/kyle/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kyle/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/bin/lib/core-0.0.1-SNAPSHOT.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/surefire/surefirebooter-20250216223822136_3.jar /Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/surefire 2025-02-16T22-38-22_062-jvmRun1 surefire-20250216223822136_1tmp surefire_0-20250216223822136_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/test-classes:/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/classes:/Users/kyle/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/kyle/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kyle/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/kyle/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kyle/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/bin/lib/core-0.0.1-SNAPSHOT.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kyle"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob/target/surefire/surefirebooter-20250216223822136_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="kyle"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/kyle/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/m8qjyx1n7tb_qgrkwvnl0tch0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/kyle/Documents/code/School/ITEC3030/Assignment1/itec3030-a1-lob"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kyle/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testSubmitOrder" classname="ca.yorku.cmg.lob.exchange.ExchangeTest" time="0.081">
+    <failure message="expected: &lt;[  3  MSFT   880.77         1       230     23]&#10;[  7  MSFT   914.54        27      1250    125]&#10;[  8  GOOG   249.41        23       870     87]&#10;[  6  GOOG   253.95        19       290     29]&#10;[  4  GOOG   267.21        21      1090    109]&#10;[  3  GOOG   278.70         5       160     16]&#10;[  7  GOOG   351.53        49       450     45]&#10;[  4  META  1011.28        26       960     96]&#10;[  1  META  1061.73        26       500     50]&#10;[  2  META  1070.07        45       350     35]&#10;[  5  META  1074.56        20       840     84]&#10;[  1  NVDA   200.80        13      1150    115]&#10;[  8  NVDA   265.12         1       340     34]&#10;[  2  NVDA   287.82        27      1220    122]&#10;[  2  AAPL   273.57        14      1040    104]&#10;[  8  AAPL   496.14        22       540     54]&#10;[  7  AAPL   555.54        18       330     33]&#10;[  3  TSLA   722.30        38        30      3]&#10;[  5  AMZN   335.44         7      1130    113]&#10;&gt; but was: &lt;[  3  MSFT   880.77        14       230     23]&#10;[  7  MSFT   914.54        27      1250    125]&#10;[  8  GOOG   249.41        23       870     87]&#10;[  6  GOOG   253.95        19       290     29]&#10;[  4  GOOG   267.21        21      1090    109]&#10;[  3  GOOG   278.70         5       160     16]&#10;[  7  GOOG   351.53        49       450     45]&#10;[  2  GOOG   455.82        20       470     47]&#10;[  4  META  1011.28        26       960     96]&#10;[  1  META  1061.73        26       500     50]&#10;[  2  META  1070.07        45       350     35]&#10;[  5  META  1074.56        20       840     84]&#10;[  4  NVDA   187.27        36      1230    123]&#10;[  1  NVDA   200.80        13      1150    115]&#10;[  8  NVDA   265.12         1       340     34]&#10;[  2  NVDA   287.82        27      1220    122]&#10;[  2  AAPL   273.57        14      1040    104]&#10;[  5  AAPL   458.30        47      1120    112]&#10;[  6  AAPL   464.60        10       900     90]&#10;[  8  AAPL   496.14        49       540     54]&#10;[  7  AAPL   555.54        18       330     33]&#10;[  7  TSLA   657.61        27      1190    119]&#10;[  3  TSLA   722.30        38        30      3]&#10;[  7  AVGO   435.33        18      1110    111]&#10;[  5  AMZN   335.44         7      1130    113]&#10;[  3  AMZN   443.67        47       790     79]&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+expected: <[  3  MSFT   880.77         1       230     23]
+[  7  MSFT   914.54        27      1250    125]
+[  8  GOOG   249.41        23       870     87]
+[  6  GOOG   253.95        19       290     29]
+[  4  GOOG   267.21        21      1090    109]
+[  3  GOOG   278.70         5       160     16]
+[  7  GOOG   351.53        49       450     45]
+[  4  META  1011.28        26       960     96]
+[  1  META  1061.73        26       500     50]
+[  2  META  1070.07        45       350     35]
+[  5  META  1074.56        20       840     84]
+[  1  NVDA   200.80        13      1150    115]
+[  8  NVDA   265.12         1       340     34]
+[  2  NVDA   287.82        27      1220    122]
+[  2  AAPL   273.57        14      1040    104]
+[  8  AAPL   496.14        22       540     54]
+[  7  AAPL   555.54        18       330     33]
+[  3  TSLA   722.30        38        30      3]
+[  5  AMZN   335.44         7      1130    113]
+> but was: <[  3  MSFT   880.77        14       230     23]
+[  7  MSFT   914.54        27      1250    125]
+[  8  GOOG   249.41        23       870     87]
+[  6  GOOG   253.95        19       290     29]
+[  4  GOOG   267.21        21      1090    109]
+[  3  GOOG   278.70         5       160     16]
+[  7  GOOG   351.53        49       450     45]
+[  2  GOOG   455.82        20       470     47]
+[  4  META  1011.28        26       960     96]
+[  1  META  1061.73        26       500     50]
+[  2  META  1070.07        45       350     35]
+[  5  META  1074.56        20       840     84]
+[  4  NVDA   187.27        36      1230    123]
+[  1  NVDA   200.80        13      1150    115]
+[  8  NVDA   265.12         1       340     34]
+[  2  NVDA   287.82        27      1220    122]
+[  2  AAPL   273.57        14      1040    104]
+[  5  AAPL   458.30        47      1120    112]
+[  6  AAPL   464.60        10       900     90]
+[  8  AAPL   496.14        49       540     54]
+[  7  AAPL   555.54        18       330     33]
+[  7  TSLA   657.61        27      1190    119]
+[  3  TSLA   722.30        38        30      3]
+[  7  AVGO   435.33        18      1110    111]
+[  5  AMZN   335.44         7      1130    113]
+[  3  AMZN   443.67        47       790     79]
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at ca.yorku.cmg.lob.exchange.ExchangeTest.testSubmitOrder(ExchangeTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[Submitting order: [  4  AVGO   183.79        28        10      1]
+Resulting trades: null
+Submitting order: [  2  AMZN   277.85        13        20      2]
+Resulting trades: null
+Submitting order: [  3  TSLA   722.30        38        30      3]
+Resulting trades: null
+Submitting order: [  4  AAPL   283.63        11        40      4]
+Resulting trades: null
+Submitting order: [  8  GOOG    71.85        25        50      5]
+Resulting trades: null
+Submitting order: [  4  TSLA   628.59        27        60      6]
+Resulting trades: []
+Submitting order: [  5  GOOG   281.48        34        70      7]
+Resulting trades: []
+Submitting order: [  2  GOOG   454.99        40        80      8]
+Resulting trades: [[       5         2  GOOG        34   281.48        80]
+]
+Submitting order: [  1  MSFT   745.05        23        90      9]
+Resulting trades: null
+Submitting order: [  7  META   448.90        14       100     10]
+Resulting trades: null
+Submitting order: [  2  AMZN   276.86        27       110     11]
+Resulting trades: []
+Submitting order: [  6  NVDA   169.33        50       120     12]
+Resulting trades: null
+Submitting order: [  4  AVGO   186.06        10       130     13]
+Resulting trades: []
+Submitting order: [  4  TSLA   669.63        12       140     14]
+Resulting trades: []
+Submitting order: [  6  META   776.36        22       150     15]
+Resulting trades: []
+Submitting order: [  3  GOOG   278.70        11       160     16]
+Resulting trades: [[       3         2  GOOG         6   278.70       160]
+]
+Submitting order: [  4  NVDA   174.92        11       170     17]
+Resulting trades: null
+Submitting order: [  6  MSFT   665.95        28       180     18]
+Resulting trades: [[       6         1  MSFT        23   665.95       180]
+]
+Submitting order: [  7  NVDA   113.68        11       190     19]
+Resulting trades: [[       7         4  NVDA        11   113.68       190]
+]
+Submitting order: [  6  NVDA   169.38        37       200     20]
+Resulting trades: []
+Submitting order: [  3  NVDA    78.70        22       210     21]
+Resulting trades: []
+Submitting order: [  1  AAPL   244.44        36       220     22]
+Resulting trades: null
+Submitting order: [  3  MSFT   880.77        32       230     23]
+Resulting trades: []
+Submitting order: [  1  AVGO   410.80        27       250     25]
+Resulting trades: [[       4         1  AVGO        10   186.06       250]
+]
+Submitting order: [  2  AVGO   270.21        14       260     26]
+Resulting trades: []
+Submitting order: [  5  NVDA    86.45        39       270     27]
+Resulting trades: []
+Submitting order: [  8  AVGO   333.24        46       280     28]
+Resulting trades: []
+Submitting order: [  6  GOOG   253.95        45       290     29]
+Resulting trades: []
+Submitting order: [  7  AVGO   435.30        49       300     30]
+Resulting trades: []
+Submitting order: [  7  META   712.47        31       310     31]
+Resulting trades: []
+Submitting order: [  3  AAPL   192.53        25       320     32]
+Resulting trades: null
+Submitting order: [  7  AAPL   555.54        18       330     33]
+Resulting trades: []
+Submitting order: [  8  NVDA   265.12        48       340     34]
+Resulting trades: []
+Submitting order: [  2  META  1070.07        45       350     35]
+Resulting trades: []
+Submitting order: [  6  AMZN   303.42        26       360     36]
+Resulting trades: []
+Submitting order: [  4  GOOG   127.35        43       370     37]
+Resulting trades: []
+Submitting order: [  8  AMZN   283.60        17       380     38]
+Resulting trades: []
+Submitting order: [  6  TSLA   553.67        15       390     39]
+Resulting trades: []
+Submitting order: [  8  MSFT   632.54        38       400     40]
+Resulting trades: []
+Submitting order: [  2  TSLA   527.13        33       410     41]
+Resulting trades: [[       2         4  TSLA        27   527.13       410]
+, [       2         6  TSLA         6   527.13       410]
+]
+Submitting order: [  6  MSFT   540.96        34       420     42]
+Resulting trades: []
+Submitting order: [  4  AAPL   283.66        39       430     43]
+Resulting trades: []
+Submitting order: [  2  MSFT   488.49        22       440     44]
+Resulting trades: [[       2         8  MSFT        22   488.49       440]
+]
+Submitting order: [  7  GOOG   351.53        49       450     45]
+Resulting trades: []
+Submitting order: [  5  GOOG   281.48        26       460     46]
+Resulting trades: [[       6         5  GOOG        26   253.95       460]
+]
+Submitting order: [  3  AAPL   361.50        39       480     48]
+Resulting trades: []
+Submitting order: [  8  TSLA   646.84        50       490     49]
+Resulting trades: []
+Submitting order: [  1  META  1061.73        26       500     50]
+Resulting trades: []
+Submitting order: [  3  GOOG   133.20        31       510     51]
+Resulting trades: []
+Submitting order: [  5  MSFT   425.86        41       520     52]
+Resulting trades: [[       5         8  MSFT        16   425.86       520]
+, [       5         6  MSFT        25   425.86       520]
+]
+Submitting order: [  3  AVGO   285.55        50       530     53]
+Resulting trades: []
+Submitting order: [  8  AAPL   496.14        49       540     54]
+Resulting trades: []
+Submitting order: [  3  TSLA   721.24        25       550     55]
+Resulting trades: [[       4         3  TSLA        12   669.63       550]
+]
+Submitting order: [  6  AMZN    94.20        37       560     56]
+Resulting trades: []
+Submitting order: [  5  MSFT   420.79        42       570     57]
+Resulting trades: []
+Submitting order: [  1  NVDA   195.27        34       580     58]
+Resulting trades: [[       6         1  NVDA        34   169.38       580]
+]
+Submitting order: [  4  AMZN   286.99        42       590     59]
+Resulting trades: [[       2         4  AMZN        13   277.85       590]
+, [       8         4  AMZN        17   283.60       590]
+]
+Submitting order: [  6  GOOG   248.80        16       600     60]
+Resulting trades: []
+Submitting order: [  8  META   490.03        16       610     61]
+Resulting trades: []
+Submitting order: [  3  META   693.55        29       620     62]
+Resulting trades: []
+Submitting order: [  5  AAPL   457.72        36       640     64]
+Resulting trades: [[       4         5  AAPL        36   283.66       640]
+]
+Submitting order: [  7  AAPL   554.97        34       650     65]
+Resulting trades: [[       4         7  AAPL         3   283.66       650]
+, [       3         7  AAPL        31   361.50       650]
+]
+Submitting order: [  1  GOOG   228.01        18       660     66]
+Resulting trades: [[       1         6  GOOG        16   228.01       660]
+]
+Submitting order: [  5  TSLA   508.21        48       670     67]
+Resulting trades: [[       5         3  TSLA        13   508.21       670]
+, [       5         8  TSLA        35   508.21       670]
+]
+Submitting order: [  5  TSLA   334.52        21       680     68]
+Resulting trades: []
+Submitting order: [  1  TSLA   281.15        28       690     69]
+Resulting trades: []
+Submitting order: [  8  META   671.16        24       700     70]
+Resulting trades: []
+Submitting order: [  3  MSFT   880.59        47       710     71]
+Resulting trades: [[       6         3  MSFT         5   665.95       710]
+]
+Submitting order: [  2  NVDA   287.82        50       730     73]
+Resulting trades: [[       6         2  NVDA         3   169.38       730]
+, [       8         2  NVDA        47   265.12       730]
+]
+Submitting order: [  5  NVDA    90.44        32       740     74]
+Resulting trades: [[       5         6  NVDA        32    90.44       740]
+]
+Submitting order: [  3  AMZN   430.10        18       750     75]
+Resulting trades: [[       6         3  AMZN        18   303.42       750]
+]
+Submitting order: [  6  AAPL   463.93        25       760     76]
+Resulting trades: [[       3         6  AAPL         8   361.50       760]
+]
+Submitting order: [  8  AMZN   259.95        19       770     77]
+Resulting trades: []
+Submitting order: [  1  AAPL   263.94        21       780     78]
+Resulting trades: [[       1         6  AAPL        17   263.94       780]
+, [       1         4  AAPL         4   263.94       780]
+]
+Submitting order: [  8  TSLA   646.84        20       810     81]
+Resulting trades: [[       8         8  TSLA        15   646.84       810]
+]
+Submitting order: [  4  AMZN   295.78        17       820     82]
+Resulting trades: []
+Submitting order: [  4  META   648.55        12       830     83]
+Resulting trades: []
+Submitting order: [  5  META  1074.56        20       840     84]
+Resulting trades: []
+Submitting order: [  3  NVDA   212.34        31       850     85]
+Resulting trades: []
+Submitting order: [  4  MSFT   476.85        29       860     86]
+Resulting trades: [[       4         3  MSFT        29   476.85       860]
+]
+Submitting order: [  8  GOOG   249.41        23       870     87]
+Resulting trades: []
+Submitting order: [  5  AVGO   229.30        28       880     88]
+Resulting trades: []
+Submitting order: [  7  NVDA   112.39        12       890     89]
+Resulting trades: []
+Submitting order: [  6  AVGO   350.71        11       910     91]
+Resulting trades: [[       6         7  AVGO        11   350.71       910]
+]
+Submitting order: [  8  AVGO   333.70        28       920     92]
+Resulting trades: [[       8         7  AVGO        28   333.70       920]
+]
+Submitting order: [  2  META   989.06        38       930     93]
+Resulting trades: [[       8         2  META        24   671.16       930]
+, [       3         2  META        14   693.55       930]
+]
+Submitting order: [  1  TSLA   281.15        25       940     94]
+Resulting trades: [[       1         6  TSLA         9   281.15       940]
+, [       1         5  TSLA        16   281.15       940]
+]
+Submitting order: [  6  AVGO   331.80        21       950     95]
+Resulting trades: []
+Submitting order: [  4  META  1011.28        29       960     96]
+Resulting trades: []
+Submitting order: [  3  META   692.55        14       970     97]
+Resulting trades: []
+Submitting order: [  7  GOOG   128.20        11       980     98]
+Resulting trades: []
+Submitting order: [  4  MSFT   476.22        11       990     99]
+Resulting trades: []
+Submitting order: [  8  AAPL   496.14        27      1000    100]
+Resulting trades: [[       8         8  AAPL        27   496.14      1000]
+]
+Submitting order: [  1  AMZN   279.87        23      1010    101]
+Resulting trades: [[       1         4  AMZN        12   279.87      1010]
+]
+Submitting order: [  3  AVGO   292.86        26      1020    102]
+Resulting trades: [[       3         7  AVGO        10   292.86      1020]
+, [       3         1  AVGO        16   292.86      1020]
+]
+Submitting order: [  7  TSLA   657.61        45      1030    103]
+Resulting trades: [[       8         7  TSLA         5   646.84      1030]
+]
+Submitting order: [  2  AAPL   273.57        21      1040    104]
+Resulting trades: [[       2         4  AAPL         7   273.57      1040]
+]
+Submitting order: [  1  MSFT   745.05        21      1050    105]
+Resulting trades: [[       1         3  MSFT        13   745.05      1050]
+]
+Submitting order: [  8  NVDA   255.65        50      1060    106]
+Resulting trades: [[       3         8  NVDA        31   212.34      1060]
+]
+Submitting order: [  5  AVGO   229.30        34      1070    107]
+Resulting trades: [[       5         1  AVGO         1   229.30      1070]
+, [       5         8  AVGO        33   229.30      1070]
+]
+Submitting order: [  2  MSFT   488.49        22      1080    108]
+Resulting trades: []
+Submitting order: [  4  GOOG   267.21        21      1090    109]
+Resulting trades: []
+Submitting order: [  6  META   743.61        44      1100    110]
+Resulting trades: [[       3         6  META        15   693.55      1100]
+, [       7         6  META        29   712.47      1100]
+]
+Submitting order: [  5  AMZN   335.44        19      1130    113]
+Resulting trades: []
+Submitting order: [  7  AMZN   221.60        11      1140    114]
+Resulting trades: []
+Submitting order: [  1  NVDA   200.80        32      1150    115]
+Resulting trades: [[       1         8  NVDA        19   200.80      1150]
+]
+Submitting order: [  1  AMZN   279.86        43      1160    116]
+Resulting trades: []
+Submitting order: [  7  MSFT   914.54        39      1170    117]
+Resulting trades: [[       1         7  MSFT         8   745.05      1170]
+, [       3         7  MSFT        31   880.77      1170]
+]
+Submitting order: [  1  META  1061.62        27      1180    118]
+Resulting trades: [[       7         1  META         2   712.47      1180]
+, [       6         1  META        22   776.36      1180]
+, [       4         1  META         3  1011.28      1180]
+]
+Submitting order: [  1  GOOG   228.01        48      1200    120]
+Resulting trades: [[       1         1  GOOG         2   228.01      1200]
+]
+Submitting order: [  2  NVDA   287.82        27      1220    122]
+Resulting trades: []
+Submitting order: [  5  AMZN   335.44        48      1240    124]
+Resulting trades: [[       1         5  AMZN        11   279.87      1240]
+, [       4         5  AMZN        17   295.78      1240]
+, [       6         5  AMZN         8   303.42      1240]
+, [       5         5  AMZN        12   335.44      1240]
+]
+Submitting order: [  7  MSFT   914.54        27      1250    125]
+Resulting trades: []
+Submitting order: [  2  TSLA   527.12        47      1260    126]
+Resulting trades: []
+Submitting order: [  2  AVGO   270.21        26      1270    127]
+Resulting trades: [[       2         8  AVGO        13   270.21      1270]
+, [       2         6  AVGO        13   270.21      1270]
+]
+Submitting order: [  2  AAPL   273.17        44      1280    128]
+Resulting trades: []
+]]></system-out>
+    <system-err><![CDATA[Order validation: buyer with ID 5 does not have enough balance: has $14,570.32 and tries to buy for $28,968.30
+Order validation: seller with ID 2 not enough shares of GOOG: has 6 and tries to sell 20
+Order validation: seller with ID 6 not enough shares of TSLA: has 6 and tries to sell 31
+Order validation: seller with ID 8 not enough shares of MSFT: has 16 and tries to sell 31
+Order validation: seller with ID 3 not enough shares of AMZN: has 18 and tries to sell 47
+Order validation: seller with ID 1 not enough shares of AVGO: has 10 and tries to sell 24
+Order validation: seller with ID 6 not enough shares of AAPL: has 17 and tries to sell 37
+Order validation: seller with ID 7 not enough shares of AVGO: has 10 and tries to sell 18
+Order validation: seller with ID 5 not enough shares of AAPL: has 36 and tries to sell 47
+Order validation: seller with ID 7 not enough shares of TSLA: has 5 and tries to sell 45
+Order validation: seller with ID 7 not enough shares of AMZN: has 20 and tries to sell 44
+Order validation: seller with ID 4 not enough shares of NVDA: has 11 and tries to sell 36
+]]></system-err>
+  </testcase>
+</testsuite>
