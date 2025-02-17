@@ -113,7 +113,7 @@ public class Exchange {
 			// Only add to order book if there's an unfulfilled order and its quantity is > 0
 			if (oOutcome.getUnfulfilledOrder() != null && oOutcome.getUnfulfilledOrder().getQuantity() > 0) {
 				book.getAsks().addOrder((Ask)oOutcome.getUnfulfilledOrder());
-			}           
+			}			
 		}
 
 		// Only process trades if there are any
